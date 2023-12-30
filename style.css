@@ -1,0 +1,105 @@
+:root {
+    --base-font-size: 16px;
+    --base-font-size-mobile: 14px;
+    --main-font-family: "Open Sans",Helvetica,Arial,sans-serif;
+}
+
+button{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section {
+    padding: 10px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.brandLogo{
+    height: 48px;
+    width: 51px;
+}
+.brandName{
+    width: 200px;
+    font-size:14px;
+    font-weight:700;
+}
+
+.middle-section {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+
+.middle-section li {
+    list-style: none;
+    
+}
+.middle-section button {
+    color: #000000;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    text-align: left;
+    height: 100%;
+    letter-spacing: -.7px;
+    font-size: .875rem;
+    line-height: 16px;
+    background-color: transparent;
+    flex-direction: row;
+    font-family: var(--main-font-family);
+    padding: 15px 14px 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: flex-start;
+}
+
+.right-section {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+}
+
+.right-section button {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 0.75rem;
+    line-height: 24px;
+    font-weight: 400;
+    justify-content: center;
+    letter-spacing: -0.5px;
+}
+
+.right-section button .searchLable{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+}
